@@ -1,0 +1,35 @@
+if (true){
+    let a = 10
+    const b = 20
+    var c = 30 
+}
+
+// console.log(a); Error 
+// console.log(b);
+// console.log(c);
+// The var can come outside of any score 
+// To avoid that we cant use var a most
+// *******************************************//
+/*
+function one (){
+    const userName="Prabhat"
+    function two (){
+        const userId="abc"
+        console.log(userName);    
+    }
+    console.log(userId);
+    two()
+
+}
+one()
+*/
+
+if (true){
+    const userName="Prabha"
+    if (userName === 'Prabha'){
+        const userId='123'
+        console.log(userName);
+    }
+    // console.log(userId);
+    
+}
